@@ -173,21 +173,6 @@ refit PDS, reset the chart.
 Five recalibrations fire, at t = 85, 110, 130, 151 and 169. Error grows between alarms and
 drops after each one. Oil, protein and starch show the same pattern (`results/streaming.md`).
 
-## Interview talking points
-
-* SNV hurting is a data-driven finding that contradicts the usual recipe. Run the ablation
-  rather than trusting defaults.
-* High-complexity models (many LVs, small error) are the most fragile under instrument
-  shift. There is a precision/robustness trade-off.
-* Monitor Q, not just T². Instrument change mostly appears *outside* the calibration subspace.
-* Calibrate control limits on held-out data. In-sample limits are optimistic.
-* PDS's local structure is a strong prior that wins when standards are scarce. It needs
-  regularization.
-* Next steps: robust calibration using master and slave data together, or adding standards
-  to the calibration set; the NBS glass standards (in the dataset) as sample-free transfer
-  standards; matching the detector to the model (e.g. monitoring in the PLS score/residual
-  space); and domain-adversarial or augmentation-for-shift training for the CNN.
-
 ## Data
 
 Downloaded from
