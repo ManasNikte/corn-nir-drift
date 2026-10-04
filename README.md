@@ -179,4 +179,3 @@ Downloaded from
 `https://eigenvector.com/wp-content/uploads/2019/06/corn.mat_.zip` (SHA-256 verified).
 Data originally collected at Cargill and distributed by Eigenvector Research. It is not
 redistributed in this repo.
-# corn-nir-drift
