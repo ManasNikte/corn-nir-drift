@@ -1,0 +1,14 @@
+pyproject.toml
+src/cornnir/__init__.py
+src/cornnir/data.py
+src/cornnir/evaluation.py
+src/cornnir/preprocess.py
+src/cornnir.egg-info/PKG-INFO
+src/cornnir.egg-info/SOURCES.txt
+src/cornnir.egg-info/dependency_links.txt
+src/cornnir.egg-info/entry_points.txt
+src/cornnir.egg-info/requires.txt
+src/cornnir.egg-info/top_level.txt
+src/cornnir/models/__init__.py
+src/cornnir/models/cnn.py
+src/cornnir/models/pls.py
